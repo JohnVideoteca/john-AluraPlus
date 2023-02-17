@@ -26,6 +26,7 @@ body {
     background-size: contain;
     align-items: center;
     text-align: center;
+    padding: 15%;
 }
 
 .container {
@@ -176,5 +177,45 @@ body {
 .imagem__zoom:hover {
     transform: scale(1.1);
     transition: transform .2s;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        display: block;
+        background-size: 75%;
+        background-position: center-top;
+        
+    }
+    .container__imagem{
+        width: 50vw;
+    }
+    .container__caixa{
+       margin: 2em 2em; 
+    }
+    .container__titulo {
+        margin-top: 50px;
+       
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+        
+    }
+    .imagem__zoom{
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+    .rodape{
+        text-align: center;
+    }
+    .descricao__rodape{ 
+       display: block; 
+       
+    }
     
 }
